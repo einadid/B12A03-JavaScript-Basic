@@ -14,7 +14,7 @@
 
 
 /** Problem -02 ( Cycle or Laptop ) */
-var money = 10000;
+var money = 55;
 //write your code here
 if (money >= 25000) {
     console.log("Laptop");
@@ -22,7 +22,7 @@ if (money >= 25000) {
 else if (money >= 10000) {
     console.log("Cycle");
 }
-else if (money >= 9999) {
+else if (money >= 0) {
     console.log("Chocolate");
 }
 

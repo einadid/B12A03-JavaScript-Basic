@@ -18,9 +18,9 @@
 
 
 /** Problem 04 - (Delete / Store) */
-var fileName= "pdfData.jpg";
+var fileName= "docx.xpdf";
 //write your code here
-if ( fileName.startsWith("#") || fileName.endsWith("pdf") || fileName.endsWith("docx") ) {
+if ( fileName.startsWith("#") || fileName.endsWith(".pdf") || fileName.endsWith(".docx") ) {
     console.log("Store");
 }
 else {
